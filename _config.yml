@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: wrok.ae
+title: wrok
 email: svs@svs.io
 description: >- # this means to ignore newlines until "baseurl:"
   The UAEs boutique tech consulting firm.
@@ -32,7 +32,9 @@ author:
 # Build settings
 theme: minima
 plugins:
+  - jekyll-slim
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

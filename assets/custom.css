@@ -1,12 +1,39 @@
 body {
+    display: flex;    
 }
 
 .site-title {
-    font-family: Georgia;
+    font-family: Raleway;
     font-size: 3.2em;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .wrapper {
     max-width: calc(1200px - (30px * 2));
+    margin: auto;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+}
+
+h1.hero {
+    font-size: 3rem;
+    text-align: center;
+    font-family: Georgia;
+}
+
+span.hl {
+    font-weight: bold;
+    color: #58879b;
+}
+
+h2 {
+    font-family: Raleway;
+}
+p {
+    font-family: Georgia;
+    font-size: 1.3rem;
 }
