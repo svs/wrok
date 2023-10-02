@@ -31,6 +31,6 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "hitchens-theme"
 gem "minima", :git => "https://github.com/jekyll/minima.git", :branch => "master"
-gem 'jekyll-slim', git: 'https://github.com/aiomaster/jekyll-slim'
+gem 'jekyll-slim', git: 'https://github.com/svs/jekyll-slim.git'
 
 
